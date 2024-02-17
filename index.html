@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-------------------CSS STYLESHEEET-----------myntra.css----------------->
+    <link rel="stylesheet" href="./myntra.css">
+    <!---------------CSS BOOTSTRAP------------------------------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-----------------------FONTAWESOME.COME--EMBEDDED SCRIPT------------------->
+    <script src="https://kit.fontawesome.com/352158be95.js" crossorigin="anonymous"></script>
+    <!-----myntra logo icon ----------------------------->
+    <link rel="icon" href="https://brandlogos.net/wp-content/uploads/2022/03/myntra-logo-brandlogos.net_.png">
+</head>
+<body>
+    <!-------------BOOTSTRAP JAVASCRIPT BUNDLE------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--------------------------------------NAVBAR--------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="one">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://cdn.iconscout.com/icon/free/png-512/myntra-2709168-2249158.png" style="aspect-ratio:2/3;width:50%;" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active navtxt" aria-current="page" href="#">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtxt" href="#">WOMEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtxt" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtxt" href="#">HOME & LIVING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtxt" href="#">BEAUTY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtxt" href="#">STUDIO<sup style="color:rgb(230,7,144)">new</sup></a>
+              </li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control-me-2" type="search" placeholder="Search" aria-label="Search" style="margin:10px 50px;padding: 1px 100px;"><!---padding: 1px 100px;"-->
+              <i class="fa-solid fa-user w-25 mt-3" style="margin-right:20px;"></i>
+              <i class="fa-regular fa-heart w-25 mt-3"></i>
+              <!------Search Button
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>  -->
+          </div>
+        </div>
+      </nav>
+      <!----------------------------------NAVBAR END----------------------------------------->
+      
+      <!---carousel Slides-->
+      <section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            <div class="card" >
+              <div class="row g-0">
+                <div class="col col-10">
+                  <img src="https://img.freepik.com/premium-photo/collection-shoes-shelves_392895-377078.jpg?w=740" style="aspect-ratio:8/2; width:100vw;" class="img-fluid rounded-start" alt="Slide1">
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h4 class="card-title">SHOES</h4>
+                    <h5>75% Discount OFF</h5>
+                    <h6> Rs.499/- only</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" >
+                <div class="row g-0">
+                  <div class="col col-10">
+                    <img src="https://img.freepik.com/premium-photo/colorful-men-polo-shirt-template_751108-488.jpg?w=600" style="aspect-ratio:8/2; width:100vw;" class="img-fluid rounded-start" alt="Slide2">
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h4 class="card-title">US POLO ASSAN</h4>
+                      <h5>Under Rs.999/- only</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" >
+                <div class="row g-0">
+                  <div class="col col-10">
+                    <img src="https://img.freepik.com/free-photo/woman-chosing-white-shirt_1303-14677.jpg?w=740&t=st=1708050507~exp=1708051107~hmac=06fc85675d388b835fc8e2bb0ecfb02d5592bda2686701c39fb7252481535f0b" style="aspect-ratio:8/2; width:100vw;" class="img-fluid rounded-start" alt="Slide1">
+                  </div>
+                  <div class="col">
+                    <div class="card-body">
+                      <h4 class="card-title">Tops And Tees</h4>
+                      <h5>Under Rs.499/- only</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---carousel Slides End-->
+      <!---carousel Slides End-->
+      <!--------------------------------Cards MEDAL WORTHY BRANDS---------------------->
+      <section>
+        <h3 class="Medal_worth_brands m-3" style="color: #634592cb;;">MEDAL WORTHY BRANDS</h3>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+        <div class="card-group">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/top-view-foundation-containers-arrangement_23-2149511268.jpg?w=996&t=st=1707977244~exp=1707977844~hmac=c21a15287a9e423a8d6b2aa7939bfb7a8ab284b1897b211ad817bbe001066700" class="card-img-top" alt="card1">
+            <div class="card-body">
+              <h5 class="card-title1">Free Personal-care<br>Min 20% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/stylish-tall-arabian-man-model-white-shirt-jeans-sunglasses-posed-street-city-beard-attractive-arab-guy_627829-2583.jpg?w=996&t=st=1707977268~exp=1707977868~hmac=bda1442beb7a4fcccd7ed891170f77c63ae6cfc4d803afcc989dfa62cf12f37a" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title1">Best Selling Casuals<br>Min 55% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/premium-photo/3-hot-asian-models-landscape-wearing-traditional-dress-fashion-shoot_658768-295.jpg?w=996" class="card-img-top" alt="card3">
+            <div class="card-body">
+              <h5 class="card-title1">Ethnic Wear<br>Min 40% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400848.jpg?w=996&t=st=1707977467~exp=1707978067~hmac=b2980d3561561f79db2be0e39a0524ab7fe209a0e362cf92d7551749017b5806" class="card-img-top" alt="card4">
+            <div class="card-body">
+              <h5 class="card-title1">Stylish Collection Sarees<br>Min 55% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/premium-photo/gorgeous-young-desi-girl-landscape-holding-her-dupatta-traditional-photoshoot_658768-234.jpg?w=996" class="card-img-top" alt="card5">
+            <div class="card-body">
+              <h5 class="card-title1">Designer sarees<br>Min 35% OFF</h5>
+            </div>
+          </div>
+        </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-group">
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/business-woman-working-laptop-outside-park_1303-22999.jpg?w=996&t=st=1708004242~exp=1708004842~hmac=719a2f0e7b1be323654c780f2a5b8e5b5be1121d56c7fd520e18b3ea948058f5" class="card-img-top" alt="card4">
+                    <div class="card-body">
+                      <h5 class="card-title1">Work-Ready styles<br>Min 30% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/young-businessman-using-digital-tablet-sitting-bench-outdoors_1048944-701418.jpg?w=996" class="card-img-top" alt="card5">
+                    <div class="card-body">
+                      <h5 class="card-title1">Work-Ready styles<br>Min 25% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/woman-with-short-hair-relaxing-outdoors_23-2149015764.jpg?w=996&t=st=1708004560~exp=1708005160~hmac=52e5837387b233ca44defd3b1b93031944f1b142e2f65a367385c6805949c68d" class="card-img-top" alt="card6">
+                    <div class="card-body">
+                      <h5 class="card-title1">Smart WorkWear<br>Min 55% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/smiling-young-businessman-sitting-outdoors_171337-19871.jpg?w=996&t=st=1708004623~exp=1708005223~hmac=4fbb1cd8866a001e55b240d18f9d5d81cbccc00b15e91fd5e15637133e6fa4e0" class="card-img-top" alt="card6">
+                    <div class="card-body">
+                      <h5 class="card-title1">Best Selling Casuals<br>Min 30% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/girls-sitting-spring-sity-hold-coffee-her-hand_1157-38423.jpg?w=996&t=st=1708004744~exp=1708005344~hmac=7bffc25d7a89bf1bbf7e5c8b993697d0ca044df5ff0a10f0a1ccc7e7347d633a" class="card-img-top" alt="card6">
+                    <div class="card-body">
+                      <h5 class="card-title1">Elevated Picks<br>Min 20% oFF</h5>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!--------------------------------Cards MEDAL WORTHY BRANDS End----------------------> 
+      <!---------------------------------------------------------------------------------------------->
+      <!--------------------------------Cards GRAND GLOBAL BRANDS----------------------> 
+      <section>
+        <h3 class="Grand_global_brands m-3" style="color: #634592cb;;">GRAND GLOBAL BRANDS</h3>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+        <div class="card-group">
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/woman-s-feet-elegant-gladiator-sandals_291049-214.jpg?w=996&t=st=1707977963~exp=1707978563~hmac=7833bb39823ae1138ccacf3fd9754e8d8b88516db4d123cac15578f440b70d01" class="card-img-top" alt="card1">
+            <div class="card-body">
+              <h5 class="card-title1">Stunning Footwear<br>UP TO 60% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/young-couple-love-posing-old-town-cropped-feet_285396-3218.jpg?w=996&t=st=1707978030~exp=1707978630~hmac=64574636f2057ce17f65494ceea4f4e11798384ecae24d55b7882c4bf7711847" class="card-img-top" alt="card2">
+            <div class="card-body">
+              <h5 class="card-title1">Sneakers<br> Min. 40% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?w=826&t=st=1707978064~exp=1707978664~hmac=1d139f4e29338e83c45e425189636ce4e8f285f9f7355cf1cea57e84ba036c93" class="card-img-top" alt="card3">
+            <div class="card-body">
+              <h5 class="card-title1">Must Have collection<br>UP TO 50% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/full-shot-man-clothing-formality-scale_23-2150831334.jpg?w=900&t=st=1707978107~exp=1707978707~hmac=fe76bc639c6796313569beb4ab9473d3f61284821d17e59504d9e3aa0fcdb815" class="card-img-top" alt="card4">
+            <div class="card-body">
+              <h5 class="card-title1">Laid-back Styles<br>Min 30% OFF</h5>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/girl-posing-with-shopping-bags_23-2147825037.jpg?w=1380&t=st=1707978168~exp=1707978768~hmac=f6619f769b39f020ea69ec5edb8851b25134899480dc76ae9d4597238fca3879" class="card-img-top" alt="card5">
+            <div class="card-body">
+              <h5 class="card-title1">Everyday Wear<br>UP TO 70% OFF</h5>
+            </div>
+          </div>
+        </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-group">
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/beautiful-sexy-blonde-girl-casual-clothes-with-perfect-figure-walking-around-city-fashion-city-style-black-stylish-hat-short-top-sensual-full-lips_273443-1143.jpg?w=996&t=st=1708005178~exp=1708005778~hmac=15d3f5701a82e81cfa2cc420a0bd4650590e5a06148cfed3b2523c7ec05fbf16" class="card-img-top" alt="card4">
+                    <div class="card-body">
+                      <h5 class="card-title1">Stylish Fits<br>UP TO 40% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/handsome-stylish-man-urban-outfit_1303-17746.jpg?w=996&t=st=1708005255~exp=1708005855~hmac=4db3a3e4bcd071c3e9a516770f6ac922c867f77a899eb95526e693eb7eebd1b6" class="card-img-top" alt="card5">
+                    <div class="card-body">
+                      <h5 class="card-title1">Every day Wear<br>Min.50% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/young-hipster-friends-traveling_285396-3278.jpg?w=996&t=st=1708005312~exp=1708005912~hmac=54dae5112500ae145528394d6e159ecd529ab8fbafffba99beb0087cef27ceb6" class="card-img-top" alt="card6">
+                    <div class="card-body">
+                      <h5 class="card-title1">Cool Casuals<br>FLAT 40% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/young-confident-woman-portrait-wearing-hat-showing-thumbs-up_158595-3198.jpg?w=996&t=st=1708005352~exp=1708005952~hmac=f019ca30a2138797f842da13954d3f0f7c6bdd45aacaa0c0fdf79c2cf4e0a724" class="card-img-top" alt="card6">
+                    <div class="card-body">
+                      <h5 class="card-title1">Easy-going Styles<br>Min.40% OFF</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://img.freepik.com/free-photo/handsome-man-resting-after-training_23-2147755369.jpg?w=996&t=st=1708005397~exp=1708005997~hmac=26535f1c037d5d5dfa5150dd3f3b7d0d6fdb7b097804f5b26d904bd5cc2b73ad" class="card-img-top" alt="card6">
+                    <div class="card-body">
+                      <h5 class="card-title1">Trendiest Fits<br>Min 30% OFF</h5>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------Cards GRAND GLOBAL BRANDS End----------------------> 
+      <!---------------------------------------------------------------------------------------------->
+      <!--------------------------------Cards Shop by categoy---------------------->
+      <section>
+        <h3 class="Shop_by_category text-left m-3" style="color: #634592cb;;">SHOP BY CATEGORIES</h3>
+        <div class="row mt-3"><!--row-cols-1 row-cols-md-3 g-4 mt-3-->
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/young-woman-beautiful-red-dress_1303-17507.jpg?w=996&t=st=1707999297~exp=1707999897~hmac=9181e805d91e6f6962b35d3709c200248063f21544a079c7b92cc53fe36d23fc" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title background-color:rgb(200,40,12);">Ethnic wear<br>50%-80% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/young-handsome-hipster-man-posing-european-street-sunny-warm-toned-colors-casual-trendy-clothes-traveling-mood_291049-1490.jpg?w=996&t=st=1707999398~exp=1707999998~hmac=b0104b5de0c65d815ab7102d1edb0ba0fe45685ce61cf95a9d21f84303065878" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Casual Wear<br>50%-80% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/pretty-curly-brunette-fitness-woman_171337-1879.jpg?w=996&t=st=1707999436~exp=1708000036~hmac=ef8a82be43c16c26be2acc3bb096dfd1b31bf48b5d28741a20c5e3594bf35eb3" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Active Wear<br>50%-80% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/handsome-man-exercising-park-sports-wear_1303-21911.jpg?w=996&t=st=1707999461~exp=1708000061~hmac=288c43c6de9c75af2a0b1b918f53a615d8c1704b54c43fa95cd5f970ffc3df01" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sports Wear<br>40%-80% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/fashionable-woman-brown-coat-beige-hat-posing_273443-3771.jpg?w=996&t=st=1707999510~exp=1708000110~hmac=bfbd0ee030515ae769cd9a8445259b094656552ade3b3d13c317c18bb60b9caf" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lounge Wear<br>30%-80% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/man-stretching-rooftop_23-2147618026.jpg?w=996&t=st=1707999555~exp=1708000155~hmac=2ab1114ebeaab3bf199c2b716c9b5d858dfb9f4c58a532524a7e78526c5a0d18" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sports Wear<br>20%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/adorable-woman-pajama-sitting-sofa_197531-12762.jpg?w=996&t=st=1707999596~exp=1708000196~hmac=73249176fb01c7a4cd03f9de89a79c236e301631cb6dbf7f60497e9c2a569cbf" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Active Wear<br>30%-70% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039316.jpg?t=st=1707999775~exp=1708003375~hmac=a3df33a8c6990dd72b29d1d2bbdf85ce1cce04683eb74671daafe2dcd7a90cd1&w=996" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Watches<br>50%-80% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/premium-photo/araffe-dog-sitting-pink-box-with-toothbrush-generative-ai_958124-26890.jpg?w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pets Care<br>10%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/multi-colored-beauty-product-collection-eyeshadow-palette-glamour-make-up-set-generated-by-artificial-intelligence_188544-90072.jpg?t=st=1707999878~exp=1708003478~hmac=7737f48788ab0028035cec12d33236c7cb75c9721601ef0d1af04ba5ae4c0742&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Beauty & make-up<br>40%-70% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/medium-shot-kid-with-smartphone-indoors_23-2150909614.jpg?t=st=1707999920~exp=1708003520~hmac=03b1a77f728fc740b8281447591e22ed7befd2032e5b427a1e0f7838a4f5679c&w=1380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kids Wear<br>20%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/man-sporting-white-sneakers_91128-3726.jpg?t=st=1707999953~exp=1708003553~hmac=e4be5d5f472107a9ea339acc57b1127e778d8a35d65fc8c255e2c4d37a2efecf&w=1380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shoes<br>30%-60% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/businesswoman-s-heeled-legs-with-her-fashion-bag_60438-3672.jpg?t=st=1707999999~exp=1708003599~hmac=0cd810d390cffd341abcd170915784e188e3ae67c6976fb4abf1c24930c46880&w=1380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">footwear<br>40%-60% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/premium-photo/black-backpack-sunglasses-hat-are-wooden-table_889227-24745.jpg?w=996" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bags,Belts&Wallets<br>30%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/confident-young-woman-elegant-fashion-portrait-generated-by-ai_188544-23856.jpg?t=st=1708000132~exp=1708003732~hmac=dfad2eeb7ad7b6e16e3e355b8a6bb67384bacf75feee07f0e8efb8831336c1f2&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Office Wear<br>20%-40% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/portrait-indigenous-person-integrating-society_23-2151102477.jpg?t=st=1708000176~exp=1708003776~hmac=8af49b89c82b7093f82c411aec0ef20d50a36c6508d4d3144edf75287f8cbee9&w=1380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ethnic Wear<br>40%-70% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/sofa-living-room-decorated-with-brazilian-folklore-design_23-2150794185.jpg?t=st=1708000210~exp=1708003810~hmac=c5a869503c2b168d9ab1a3eedbdaed66e6492dc285cf148ec612a05273d57ea8&w=996" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Decors<br>30%-40% oFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/blue-knitted-bag-still-life_23-2150709583.jpg?t=st=1708000252~exp=1708003852~hmac=0d68ecd79323b2454b9faa4b2e2aefa729eb57e41bceb027f0c5943b7d0a0339&w=1380" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Handbags<br>30%-40% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/modern-man-tech-collection-wooden-desk-headphones-sunglasses-smartphone-generated-by-ai_24640-92923.jpg?t=st=1708000306~exp=1708003906~hmac=4daab54eb93c68fbf190d2a23362805849638f7891545d909bfcd8f48c33a18a&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Headphone & Speakers<br>40%-60% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/gold-jewellery-table-with-other-gold-jewellery_1340-42836.jpg?t=st=1708000378~exp=1708003978~hmac=b09569d7ffcf5c87a9268ad71ccf013f6a20f85d9ac1ce3769d62e2b32b30f4e&w=996" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jewellery<br>10%-30% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/young-adults-fashionable-clothing-walking-outdoors-confidently-generated-by-artificial-intelligence_188544-124805.jpg?t=st=1708000417~exp=1708004017~hmac=4213260e26ad3a8f4053cd5dbc0ad1ccf0e8684f8e44a01f2b6b5bd0c2bcce74&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Size-Inclusive Styles<br>30%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/portrait-happy-soccer-player_23-2150904391.jpg?t=st=1708000457~exp=1708004057~hmac=89100cf671a671195c22a77e7efd797800f1f7622dcc2e6fffab67e9b5b630de&w=996" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Size-Inclusive Styles<br>30%-40% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/man-blue-suit-stands-street-sydney_24640-81029.jpg?t=st=1708000798~exp=1708004398~hmac=fd22f98cd20a47dff152077fa7fd816db732a7bf019e19f1c8ee455fa68a9f6a&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Work Wear<br>30%-40% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/businessman-rain-checking-his-watch-generated-by-ai_188544-16879.jpg?t=st=1708000547~exp=1708004147~hmac=a3db72ed6bcb1a99e6b3d06e48336a1f79a38d002a71189f12d0361988463d77&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Watchables<br>30%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/vintage-eyeglasses-open-book-quiet-reading-generated-by-ai_188544-27752.jpg?t=st=1708000576~exp=1708004176~hmac=c696ee16b9aac7639c106c74521a2b30b2e4d58f1f84ec98c8e058e3a801c0ac&w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">EyeWear<br>30%-40% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/view-bookbag-school-classroom_23-2150911489.jpg?t=st=1708000615~exp=1708004215~hmac=4c6063e8b9974c37ac18a40ad956b97292d8d9638f0421544b6b282fa60b1206&w=996" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bags<br>20%-60% OFF</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3 col-xl-2">
+            <div class="card">
+              <img src="https://img.freepik.com/premium-photo/flip-flops-bright-background-summer-concept-with-generative-ai_1375-10996.jpg?w=1060" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flip-Flops<br>40%-50% OFF</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------Cards Shop by categoy End----------------------> 
+      <!--------------footer----------------------------------->
+    <section>
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Online Shopping</h5>
+                    <ul class="list-unstyled">
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>Kids</li>
+                        <li>Home & Living</li>
+                        <li>Beauty</li>
+                        <li>Gift Cards</li>
+                        <li>Myntra Insider</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Customer Policies</h5>
+                    <ul class="list-unstyled">
+                        <li>Contact Us</li>
+                        <li>FAQ</li>
+                        <li>Terms & Conditions</li>
+                        <li>Track Orders</li>
+                        <li>Shipping</li>
+                        <li>Cancellation</li>
+                        <li>Returns</li>
+                        <li>Privacy Policy</li>
+                        <li>Grievance Officer</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Experience Myntra App on Mobile</h5>
+                    <div class="app-icons">
+                        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play Store">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" alt="App Store">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>Keep in Touch</h5>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Site Map</li>
+                        <li>Corporate Information</li>
+                        <li>Whitehat</li>
+                        <li>Cleartrip</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+            <h5>POPULAR SEARCHES</h5>
+            <p>Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls | Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes | Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops  Earrings | Fastrack Watches | Kurtis | Nike | Smart Watches | Titan Watches | Designer Blouse | Gowns | Rings | Cricket Shoes | Forever 21 | Eye Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show | Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles | Bras  Suit | Chinos | Shoes | Adidas Shoes | Woodland Shoes | Jewellery | Designers Sarees</p>
+            </div>
+            <div class="col-12 d-flex flex-row justify-content-center ">
+              <h6 class="foot text-muted" >© 2024 www.myntra.com. All rights reserved.</h6>
+            </div>
+        </div>
+    </footer>
+    
+      </section>
+  <!----------------------------------footer End------------------------------------->
+</body>
+</html>
