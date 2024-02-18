@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0%;
 }
+#one{
+    position:static;
+}
 .navtxt{
     display: flex;
     text-justify: center;
@@ -22,13 +25,22 @@
     padding-inline-start:1px;
 
 }
-.card{
+.whishlist:hover{
+    color: green;
+}
+.whishlist:active{
+    color: #d14090;
+}.card{
     
     padding: 5px;
-    background-color: rgb(83, 150, 206);
+    background-color: #d14090;
+    
 }
 .card-title{
-    background-color:rgb(82, 165, 243);
+    background-color:#d14090;
+}
+.card-title1{
+    background-color:#d14090;
 }
 .about{
     margin:0%;
